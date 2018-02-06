@@ -1233,6 +1233,66 @@ Prefab:
       propertyPath: MinDistance
       value: 1.0851867
       objectReference: {fileID: 0}
+    - target: {fileID: 108612018221825882, guid: 4eb722bf5a56f6e43ad76682ce609316,
+        type: 2}
+      propertyPath: m_Color.r
+      value: 0.9764706
+      objectReference: {fileID: 0}
+    - target: {fileID: 108612018221825882, guid: 4eb722bf5a56f6e43ad76682ce609316,
+        type: 2}
+      propertyPath: m_Color.g
+      value: 0.9098039
+      objectReference: {fileID: 0}
+    - target: {fileID: 108612018221825882, guid: 4eb722bf5a56f6e43ad76682ce609316,
+        type: 2}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 108612018221825882, guid: 4eb722bf5a56f6e43ad76682ce609316,
+        type: 2}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 120919813455003708, guid: 4eb722bf5a56f6e43ad76682ce609316,
+        type: 2}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 82878322575830676, guid: 4eb722bf5a56f6e43ad76682ce609316,
+        type: 2}
+      propertyPath: Priority
+      value: 55
+      objectReference: {fileID: 0}
+    - target: {fileID: 82878322575830676, guid: 4eb722bf5a56f6e43ad76682ce609316,
+        type: 2}
+      propertyPath: m_Volume
+      value: 0.55
+      objectReference: {fileID: 0}
+    - target: {fileID: 120919813455003708, guid: 4eb722bf5a56f6e43ad76682ce609316,
+        type: 2}
+      propertyPath: m_Parameters.widthMultiplier
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 120919813455003708, guid: 4eb722bf5a56f6e43ad76682ce609316,
+        type: 2}
+      propertyPath: m_Parameters.colorGradient.m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 120919813455003708, guid: 4eb722bf5a56f6e43ad76682ce609316,
+        type: 2}
+      propertyPath: m_Parameters.colorGradient.key0.r
+      value: 0.9764706
+      objectReference: {fileID: 0}
+    - target: {fileID: 120919813455003708, guid: 4eb722bf5a56f6e43ad76682ce609316,
+        type: 2}
+      propertyPath: m_Parameters.colorGradient.key0.g
+      value: 0.9098039
+      objectReference: {fileID: 0}
+    - target: {fileID: 120919813455003708, guid: 4eb722bf5a56f6e43ad76682ce609316,
+        type: 2}
+      propertyPath: m_Parameters.colorGradient.key0.b
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 4eb722bf5a56f6e43ad76682ce609316, type: 2}
   m_IsPrefabParent: 0

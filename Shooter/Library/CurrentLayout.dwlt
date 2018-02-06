@@ -110,7 +110,7 @@ MonoBehaviour:
   m_MinSize: {x: 713, y: 492}
   m_MaxSize: {x: 18008, y: 14042}
   vertical: 0
-  controlID: 17998
+  controlID: 4311
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -134,7 +134,7 @@ MonoBehaviour:
   m_MinSize: {x: 202, y: 421}
   m_MaxSize: {x: 4002, y: 8021}
   vertical: 1
-  controlID: 17999
+  controlID: 4250
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -210,7 +210,7 @@ MonoBehaviour:
   m_MinSize: {x: 234, y: 492}
   m_MaxSize: {x: 10004, y: 14042}
   vertical: 1
-  controlID: 17840
+  controlID: 4590
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -610,9 +610,9 @@ MonoBehaviour:
   m_PersistentViewDataDictionary: {fileID: 0}
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 1ecaf4ff
-    m_LastClickedID: 0
-    m_ExpandedIDs: 7887f6ff3688f7ff380cf9fff059fbffaa00fdff50adfdff6cf3fdffccc1feff20dbffff68fbffff9efbffff00000000362d0000
+    m_SelectedIDs: f2f9ffff
+    m_LastClickedID: -1550
+    m_ExpandedIDs: f6f9ffff9efbffff00000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -674,19 +674,19 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/Audio/Effects
+    - Assets
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets/Audio/Effects
+  - Assets
   m_LastFoldersGridSize: 16
   m_LastProjectPath: C:\Users\Kirito\Desktop\Comp437\game\afternite\Shooter
   m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 60}
-    m_SelectedIDs: d8280000
-    m_LastClickedID: 10456
-    m_ExpandedIDs: 000000006a28000070290000ca290000ea290000c62a0000402b0000ffffff7f
+    scrollPos: {x: 0, y: 31}
+    m_SelectedIDs: 68280000
+    m_LastClickedID: 10344
+    m_ExpandedIDs: 00000000682800006e290000c8290000e8290000c22a0000362b0000ffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -714,7 +714,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000006a28000070290000ca290000ea290000c62a0000402b0000ffffff7f
+    m_ExpandedIDs: 00000000682800006e290000c8290000e8290000c22a0000362b0000ffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -741,7 +741,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 1
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: f42b0000462c0000ec2a0000402a0000ee2a0000102c0000fe2a0000024dfcffa2290000f02a0000102b00006064faff602c0000ce55f9ffa212f9ff182c000042c8f7ff1ecaf4ff
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -796,7 +796,7 @@ MonoBehaviour:
     width: 275
     height: 910
   m_PersistentViewDataDictionary: {fileID: 0}
-  m_ScrollPosition: {x: 0, y: 1195.9551}
+  m_ScrollPosition: {x: 0, y: 600}
   m_InspectorMode: 0
   m_PreviewResizer:
     m_CachedPref: 304
