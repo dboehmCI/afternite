@@ -3,7 +3,13 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - death
+  - checkpoint
+  - goal
+  - thirdPersonGoal
+  - firstPersonGoal
+  - Steep
   layers:
   - Default
   - TransparentFX
