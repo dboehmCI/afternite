@@ -2,6 +2,9 @@
 
 Assignment #3<br>
 Danny Boehm:<br>
+I completed two scenes in the scenes folder for First Person and Third Person.
+Added Jump feature to both versions, and in the third person scene I even added a checkpoint/goal objective.
+
 
 
 Assignment #2<br>
