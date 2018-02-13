@@ -2,8 +2,15 @@
 
 Assignment #3<br>
 Danny Boehm:<br>
-I completed two scenes in the scenes folder for First Person and Third Person.
-Added Jump feature to both versions, and in the third person scene I even added a checkpoint/goal objective.
+Completed Part (1) and Part (2) of Assignment 3 as seperate scenes.
+For Part (3) I updated the ThirdPerson Scene. Updates Included:
+- Implemented collision control for character interactions with objects.
+  -  Character cannot go up certain steep hills due to collision at a certain point. Player is able to jump onto a steep incline and walk up for a little bit before crouching and then being blocked from going higher.
+- Implemented downhill movement on steep terrain. Player will now slide down a steep incline if motion is not applied to the characters movement. 
+- Added camera collision detection around objects. 
+- Created a Respawn Trigger Script
+  - Triggers include checkpoint and Finish Goal object where the player will respawn if jumped onto the checkpoint. Also if the player jumps onto the finish line goal object, character will celebrate for completing the course.
+
 
 
 
