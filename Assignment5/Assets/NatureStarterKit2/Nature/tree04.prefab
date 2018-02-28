@@ -14,9 +14,10 @@ GameObject:
   - component: {fileID: 13635550}
   - component: {fileID: 13647794}
   - component: {fileID: 13681708}
+  - component: {fileID: 54313518122945038}
   m_Layer: 0
   m_Name: tree04
-  m_TagString: Untagged
+  m_TagString: tree
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -28,7 +29,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 109402}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 4.48, y: 0, z: 29.4}
+  m_LocalPosition: {x: 25.54, y: -1.32, z: 156.7}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -8657,3 +8658,18 @@ Prefab:
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 109402}
   m_IsPrefabParent: 1
+--- !u!54 &54313518122945038
+Rigidbody:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 109402}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
