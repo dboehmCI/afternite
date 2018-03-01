@@ -4,18 +4,18 @@ using UnityEngine;
 
 public class walkTo : MonoBehaviour {
 
-
-    public Transform goal;
+    public int playerNpcChoice;
+    public Transform dragon, chicken, condor;
     public bool RaceOn;
     Animator anim;
 
-    UnityEngine.AI.NavMeshAgent agent;
+     UnityEngine.AI.NavMeshAgent agent;
     // Use this for initialization
 
     void Start () {
-
+        
         anim = GetComponent<Animator>();
-       
+        
 
     }
 
@@ -27,27 +27,29 @@ public class walkTo : MonoBehaviour {
         }
         else
         {
+            
             agent = GetComponent<UnityEngine.AI.NavMeshAgent>();
             anim.SetBool("Walk", true);
-            agent.destination = goal.position;
 
+            if (playerNpcChoice == 1)
+            {
+                agent.destination = dragon.position;
+            }
+
+            else if (playerNpcChoice == 2)
+            {
+                anim.SetBool("Walk", true);
+                agent.destination = chicken.position;
+            }
+            else if (playerNpcChoice == 3)
+            {
+                agent.destination = condor.position;
+            }
         }
         
+      
     }
-    private void FixedUpdate()
-    {
-        if (!RaceOn)
-        {
-            return;
-        }
-        else
-        {
-            agent = GetComponent<UnityEngine.AI.NavMeshAgent>();
-            anim.SetBool("Walk", true);
-            agent.destination = goal.position;
 
-        }
-    }
 
 
 }

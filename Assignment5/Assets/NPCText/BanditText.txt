@@ -1,3 +1,8 @@
-This is amazing!
+Hello, Welcome to the Assignment 5 A* Pathing! I am the interactive NPC that you can talk to and interact with, but more importantly I can use my A* Pathing abilities to show you the cloest route to THREE different magical monsters! [Press Enter]
+You will have to decide which one you wish to see!    [Press Enter]                                                                                                                         
+Press [1] to see the dragon, Press [2] to see the chicken or Press [3] to see the condor!
+You did not make a selection (1),(2) or (3). Come back when you want me to show you where to go. [Press Enter]  
 
-I don't know why.
+Alright, I will take you to the dragon.  [Press Enter]  
+Alright, I will take you to the chicken.  [Press Enter]  
+Alright, I will take you to the condor. [Press Enter].

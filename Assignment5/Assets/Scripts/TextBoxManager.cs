@@ -21,12 +21,14 @@ public class TextBoxManager : MonoBehaviour
 
     public bool isActive;
     public bool stopPlayerMovement;
+    public bool interaction;
 
     // Use this for initialization
     void Start()
     {
         npc = FindObjectOfType<walkTo>();
         player = FindObjectOfType<RigidbodyFirstPersonController>();
+        interaction = false;
 
         if (textFile != null)
         {
@@ -59,14 +61,46 @@ public class TextBoxManager : MonoBehaviour
         }
         
         theText.text = textLines[currentLine];
+        if (currentLine == 2)
+        {
+            if (Input.GetKeyDown(KeyCode.Alpha1))
+            {
+                npc.playerNpcChoice = 1;
+                
+                DiableTextBox();
+            }
+
+            else if (Input.GetKeyDown(KeyCode.Alpha2))
+            {
+                npc.playerNpcChoice = 2;
+              
+                DiableTextBox();
+            }
+            else if (Input.GetKeyDown(KeyCode.Alpha3))
+            {
+              
+                npc.playerNpcChoice = 3;
+                DiableTextBox();
+            }
+            else
+            {
+                npc.playerNpcChoice = 0;
+            }
+
+        }
 
         if (Input.GetKeyDown(KeyCode.Return))
         {
             currentLine += 1;
+           
         }
 
         if (currentLine > endAtLine)
         {
+            if (npc.playerNpcChoice == 0)
+            {
+                theText.text = textLines[3];
+            }
             DiableTextBox();
         }
     }
@@ -74,19 +108,32 @@ public class TextBoxManager : MonoBehaviour
     public void EnableTextBox()
     {
         textBox.SetActive(true);
+        isActive = true;
         if (stopPlayerMovement)
         {
             npc.RaceOn = false;
             player.canMove = false;
         }
+
+        interaction = true;
     }
 
     public void DiableTextBox()
     {
+
         textBox.SetActive(false);
         player.canMove = true;
         isActive = false;
-        npc.RaceOn = true;
+       
+        if (interaction)
+        {
+            if(npc.playerNpcChoice == 1 || npc.playerNpcChoice == 2 || npc.playerNpcChoice == 3)
+            {
+                npc.RaceOn = true;
+            }
+            interaction = false;
+        }
+       
 
     }
 
@@ -95,6 +142,7 @@ public class TextBoxManager : MonoBehaviour
         if(theText != null)
         {
             textLines = new string[1];
+            textLines = (theText.text.Split('\n'));
         }
     }
 }
