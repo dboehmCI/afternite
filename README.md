@@ -1,4 +1,21 @@
 # afternite
+Assignment #5<br>
+Danny Boehm:<br>
+
+Completed the Assignment 5 (Parts 1-4)
+Features Implemented into NPC AI
+- Added NPC (BANDIT) Behavior.
+- Added a Dialogue Box with Multiple Interaction Options. 
+- Added collision/obstacle avoidance to the NPC character.
+- Added A* Pathing to (3) Different Goal Points (Dragon, Condor, Chicken) based off the NavMeshAgent.
+- Created Scripts to handle the character controller of the NPC
+  - Walkto, TextBoxManager, ActivateTextAtLine, TextImporter.
+- Created the 'chase' sript that causes the NPC to follow the player the player once in range. NPC always targets and rotates to face the target when nearby. Deactivated to showcase the A* Pathing.
+- Created the 'wander' script that causes the NPC to randomly wanter around multiple waypoint locations to simulate a wandering movement through the terrain. Deactivated to showcase the A* Pathing.
+
+
+
+
 
 Assignment #3<br>
 Danny Boehm:<br>
