@@ -88,6 +88,7 @@ namespace UnityStandardAssets.Characters.FirstPerson
         private float m_YRotation;
         private Vector3 m_GroundContactNormal;
         private bool m_Jump, m_PreviouslyGrounded, m_Jumping, m_IsGrounded;
+        public bool canMove;
 
 
         public Vector3 Velocity
@@ -128,6 +129,10 @@ namespace UnityStandardAssets.Characters.FirstPerson
 
         private void Update()
         {
+            if (!canMove)
+            {
+                return;
+            }
             RotateView();
 
             if (CrossPlatformInputManager.GetButtonDown("Jump") && !m_Jump)
@@ -139,6 +144,10 @@ namespace UnityStandardAssets.Characters.FirstPerson
 
         private void FixedUpdate()
         {
+            if (!canMove)
+            {
+                return;
+            }
             GroundCheck();
             Vector2 input = GetInput();
 
