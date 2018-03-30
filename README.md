@@ -1,6 +1,26 @@
 # afternite
 
 
+Assignment #8<br>
+Danny Boehm:<br>
+
+* I decided to my Assignment3 submission as a template to add Assignment 8 features.
+
+Completed Parts (1)-(4)
+Part (1)
+Created a main menu scene with an interface that allows the player to click play. Once clicked the game will start and level will begin. This click loads the ThirdPersonLevel from Assignment 3 (Except modified with new features).
+
+Part (2)
+The player can click the escape key ('esc') and access the pause interface. The pause interface disables player movements, freezes the game and gives the player the option to resume, go back to the main menu or quit the game (quit provides a console message).
+
+Part (3)
+A yellow checkpoint at the spawning point for the player is actually a NPC Checkpoint which when collided with opens a dialogue box! The dialogue box opens and gives the player information leading up to part 4.
+
+Part (4)
+The yellow checkpoint (not the NPC version) when collided with, will bring up a prompt that shows a message "Press F to Interact". When the player is within the collision zone, the interaction is enabled, if the player leaves the collision zone then the interaction is disabled. If the player hits the 'F'  key within the interaction enabled zone, the game will save their progress in case they fall off the zone (hence something happens when pressed). 
+
+----------------------------------------------------------------------
+
 Assignment #6-7<br>
 Danny Boehm:<br>
 
