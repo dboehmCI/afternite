@@ -10,8 +10,12 @@ TagManager:
   - thirdPersonGoal
   - firstPersonGoal
 <<<<<<< HEAD
+  - checkNPC
+=======
+<<<<<<< HEAD
   - Steep
 =======
+>>>>>>> master
 >>>>>>> master
   layers:
   - Default
