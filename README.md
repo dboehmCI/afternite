@@ -1,7 +1,56 @@
 # afternite
 
+
+Assignment #6-7<br>
+Danny Boehm:<br>
+
+Completed Parts (1)-(4)
+Part (1)
+- I am the only person in my group but I tried to make two simple objects to have at least more than one object in the scene. I created a chest and a barrel model. 
+
+Part (2)
+- As mentioned, I created two different models using Blender, Chest and a Barrel.
+
+Part (3)
+- I used Materials to paint both the chest and the barrel.
+
+Part (4)
+- Imported the models into the scene from Assignment #5. Models were placed alongside the road, when the scene is loaded, they will be in front of the player near the dirt and can be viewed by walking around. 
+
+* Issues: For some reason when I Smart UV Wrapped and then Baked my models in Blender, they appeared fine; however, when I exported them from Blender in .FBX file format and then created them as Game Objects, they were missing parts of the render. I am not sure why this is because it happened on both objects. Also the Barrell materials for some reason did not cross over into Unity so I had to give it colors within Unity...The chest however, did maintain its Two-Color Palette. 
+
+----------------------------------------------------------------------
+
+Assignment #5<br>
+Danny Boehm:<br>
+
+Completed the Assignment 5 (Parts 1-4)
+Features Implemented into NPC AI
+- Added NPC (BANDIT) Behavior.
+- Added a Dialogue Box with Multiple Interaction Options. 
+- Added collision/obstacle avoidance to the NPC character.
+- Added A* Pathing to (3) Different Goal Points (Dragon, Condor, Chicken) based off the NavMeshAgent.
+- Created Scripts to handle the character controller of the NPC
+  - Walkto, TextBoxManager, ActivateTextAtLine, TextImporter.
+- Created the 'chase' sript that causes the NPC to follow the player the player once in range. NPC always targets and rotates to face the target when nearby. Deactivated to showcase the A* Pathing.
+- Created the 'wander' script that causes the NPC to randomly wanter around multiple waypoint locations to simulate a wandering movement through the terrain. Deactivated to showcase the A* Pathing.
+
+
+----------------------------------------------------------------------
+
+
 Assignment #3<br>
 Danny Boehm:<br>
+Completed Part (1) and Part (2) of Assignment 3 as seperate scenes.
+For Part (3) I updated the ThirdPerson Scene. Updates Included:
+- Implemented collision control for character interactions with objects.
+  -  Character cannot go up certain steep hills due to collision at a certain point. Player is able to jump onto a steep incline and walk up for a little bit before crouching and then being blocked from going higher.
+- Implemented downhill movement on steep terrain. Player will now slide down a steep incline if motion is not applied to the characters movement. 
+- Added camera collision detection around objects. 
+- Created a Respawn Trigger Script
+  - Triggers include checkpoint and Finish Goal object where the player will respawn if jumped onto the checkpoint. Also if the player jumps onto the finish line goal object, character will celebrate for completing the course.
+
+----------------------------------------------------------------------
 
 
 Assignment #2<br>
@@ -14,7 +63,7 @@ Elephant now tracks player down and attempts to trigger Player Death.<br>
 (4) Updated Enemy Spawn Points : Adjust the Spawning locations of ZomBunny, Zombear and Hellephant to match their map locations.<br>
 (5) Adjusted GameOverOverlay Color: Changed the overlay color for the GameOver screen to #F45A5A00<br>
 
-
+----------------------------------------------------------------------
 Assignment #1 <br>
 Hello, This is Danny. I am making an edit to the README ^_^<br>
 <br><br>
