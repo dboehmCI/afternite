@@ -27,7 +27,7 @@ JUMP - Press Spacebar to jump.
 IDLE - Idle animation activates when no controls are in use.
  
 
-----------------------------------------------------------------------
+//----------------------------------------------------------------------
 
 
 Assignment #8<br>
