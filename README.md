@@ -1,6 +1,35 @@
 # afternite
 
 
+
+Assignment #9-11<br>
+Danny Boehm:<br>
+
+Completed Parts (1)-(3)
+Part (1)
+Created the 2D Character Sprite Sheet and added into Unity.
+
+Part (2)
+Spoke with the professor about only needing to create "2" animations for the 2D character. I've created "4" animations for my 2D character. Completed: Run (Left & Right), Walk (Left & Right), Idle (Left & Right), Jump
+
+Part (3)
+Implemented a 2D Platform Scene for testing my character. Character animations are setup for Left Arrow, Right Arrow, Space (JUMP), (I)-Key (RUN)
+
+CONTROLS: L
+Left Arrow/Right Arrow : Moves Left and Right
+Spacebar: Jump
+I-Key: Activates Run while holding down Left/Right Arrow
+
+Animations:
+WALK : Walk animation activates when just pressing left or right arrow.
+RUN - Run animation activates when holding down I-Key and then hitting right or left arrow.
+JUMP - Press Spacebar to jump.
+IDLE - Idle animation activates when no controls are in use.
+ 
+
+----------------------------------------------------------------------
+
+
 Assignment #8<br>
 Danny Boehm:<br>
 
